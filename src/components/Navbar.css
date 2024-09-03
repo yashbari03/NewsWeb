@@ -1,0 +1,42 @@
+.main-heading{
+
+    font-size: 23px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #f3045c,
+            #fd05dc, #063df5, #d222d8);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}
+
+li:hover{
+  
+  border-bottom: 2px solid rgb(104, 104, 104);
+ 
+  font-weight: 600;
+}
+li{
+  
+  border-bottom: 2px solid;
+ 
+  font-weight: 500;
+}
+
+.nav-link:hover{
+  color: white
+}
+
+
+
+.nav{
+    background: rgb(0, 0, 0);
+  backdrop-filter: saturate(180%) blur(10px);
+
+
+}
+
+.fix-top{
+  position: sticky;
+  top:0;
+}
